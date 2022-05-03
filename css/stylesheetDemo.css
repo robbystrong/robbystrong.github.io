@@ -1,0 +1,44 @@
+p
+{
+  background-color:white;
+  color:red;
+  font-size:150%;
+  font-weight:1000;
+  text-align:center;
+}
+
+#bruh
+{
+  background-color:white;
+  color:blue;
+}
+
+a
+{
+  background-color: white;
+  color: limegreen;
+  font-size: 150%;
+}
+
+.kek
+{
+  font-size:100%;
+}
+/*
+color/text
+background-color
+
+make it curved
+hover
+transition
+*/
+
+.fancyButton
+{
+transition: background-color .25s ease-in-out;
+}
+
+.fancyButton:hover
+{
+
+}

@@ -1,0 +1,347 @@
+.xd
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 140px;
+}
+
+#button
+{
+  font-size: 40px;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: red;
+  font-weight: bolder;
+  border: 2px black;
+  transition: .3s ease-in-out;
+}
+
+#button:hover
+{
+  background-color: darkred;
+}
+
+#button.transfooorm
+{
+  font-size: 250px;
+  background-color: blue;
+}
+
+#button.transfooorm:hover
+{
+  background-color: darkblue;
+}
+
+#button.roootate
+{
+  transform: rotate(360deg);
+}
+
+
+
+@media screen and (max-width: 400px)
+{
+  .homeC
+  {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .6em;
+  }
+  .introductions
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .title
+  {
+    font-size: .65em;
+  }
+  .aboutC
+  {
+    font-size: .6em;
+    margin-bottom: 6%;
+  }
+  .projectsC
+  {
+    font-size: .6em;
+    margin-bottom: 6%;
+  }
+  .contactC
+  {
+    font-size: .6em;
+    margin-bottom: 6%;
+  }
+  #pic
+  {
+    height: 72%;
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #name
+  {
+    padding-top: 2%;
+    font-size: 500%;
+  }
+  #pronouns
+  {
+    font-size: 300%;
+  }
+  .pni
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  #pic2
+  {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    height: 70%;
+    width: 70%;
+  }
+  #pic3
+  {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    height: 80%;
+    width: 80%;
+  }
+  .contactImg
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  #salmon
+  {
+    height: 90%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+  }
+}
+
+@media screen and (min-width: 401px)
+{
+  .homeC
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .introductions
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  #name
+  {
+    padding-top: 14%;
+    font-size: 520%;
+  }
+  #pronouns
+  {
+    margin-top: 2%;
+    font-size: 300%;
+  }
+  #pic
+  {
+    margin-left: 3%;
+    margin-right: 6%;
+  }
+  #pic2
+  {
+    margin-top: -4%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    height: 34%;
+    width: 34%;
+  }
+  #pic3
+  {
+    height: 50%;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: -5%;
+  }
+  #salmon
+  {
+    height: 66%;
+    width: 66%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5%;
+  }
+  .pni
+  {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+  }
+  .contactImg
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact
+  {
+    margin-top: 2%;
+  }
+  .about
+  {
+    margin-top: 2%;
+  }
+}
+
+*,html
+{
+  font-family: 'Fredoka', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bar
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333946;
+  color: lightgrey;
+}
+
+li
+{
+  float: left;
+}
+
+li a
+{
+  display: block;
+  color: lightgrey;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 6px;
+}
+
+li:hover
+{
+  background-color: salmon;
+  transition: color .4s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+
+#happy
+{
+  padding: 10px 10px;
+}
+
+.introductions
+{
+  padding-top: 1.4%;
+  color: white;
+}
+
+#name
+{
+  padding-left: 8%;
+  padding-right: 6%;
+}
+
+#pronouns
+{
+  padding-left: 8%;
+}
+
+#pic
+{
+  margin-top: 6%;
+  border-radius: 60px;
+  margin-bottom: 2%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#pic2
+{
+  border-radius: 60px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#pic3
+{
+  border-radius: 60px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+body
+{
+  background-color: #3F5441;
+}
+
+.title
+{
+  font-size: 500%;
+  color: white;
+  padding-left: 6%;
+  padding-top: 2%;
+}
+
+.about
+{
+  font-size: 240%;
+  color: white;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1%;
+}
+
+.music
+{
+  font-size: 240%;
+  color: white;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1%;
+}
+
+.projects
+{
+  font-size: 240%;
+  color: white;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1%;
+}
+
+.contact
+{
+  font-size: 240%;
+  color: white;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1%;
+}
+
+.projectsC
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.projects a
+{
+  color: salmon;
+}
+
+.projects a:hover
+{
+  color: #913435;
+}

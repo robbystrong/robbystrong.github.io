@@ -1,0 +1,51 @@
+#name
+{
+  font-family: sans-serif;
+}
+
+.pronouns
+{
+  color: purple;
+}
+
+#lel
+{
+  color: darkred;
+}
+
+hr
+{
+  margin-right: 80px;
+}
+
+a
+{
+  color: #420FA3;
+}
+
+a:hover
+{
+  color: #cc3d00;
+  transition: color .1s ease-in-out;
+}
+
+a:visited
+{
+  color: darkgreen;
+}
+
+a:visited:hover
+{
+  color: #cc3d00;
+  transition: color .1s ease-in-out;
+}
+
+#salmonn
+{
+  color: salmon;
+}
+
+#salmonn:hover
+{
+  background-color: #420fa3;
+}

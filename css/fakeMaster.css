@@ -1,0 +1,74 @@
+@media screen and (max-width: 400px)
+{
+  body
+  {
+    background-color: skyblue;
+  }
+  .container
+  {
+    display: grid;
+    background-color: inherit;
+    padding: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .header
+  {
+    color: purple;
+    background-color: yellow;
+    padding: 20px;
+    grid-row: 1/4;
+  }
+  .toc
+  {
+    color: navy;
+    background-color: pink;
+    padding: 20px;
+  }
+  .content
+  {
+    color: darkred;
+    background-color: white;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 401px)
+{
+  body
+  {
+    background-color: skyblue;
+  }
+  .container
+  {
+    display: grid;
+    background-color: inherit;
+    padding: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .header
+  {
+    color: purple;
+    background-color: yellow;
+    padding: 20px;
+    grid-column: 1/4;
+  }
+  .toc
+  {
+    color: navy;
+    background-color: pink;
+    padding: 20px;
+    grid-row: 2/4;
+  }
+  .content
+  {
+    color: darkred;
+    background-color: white;
+    padding: 20px;
+    grid-row: 2/4;
+    grid-column: 2/4;
+  }
+}
